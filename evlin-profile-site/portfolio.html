@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="technical-interests.html">Technical Interests</a></li>
-                <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
 
-    <main>
-        <h1>My Work</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="technical-interests.html">Technical Interests</a></li>
+      <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+    </ul>
+  </nav>
 
-        <section class="project">
-            <h2>Accessible Profile Website</h2>
-            <img src="images/profile-site.png" alt="Screenshot of accessible profile site" />
-            <p>This site was built using HTML, CSS, and JavaScript, with a strong focus on accessibility.</p>
-            <a href="project-details.html">View Details</a>
-        </section>
+  <main>
+    <section class="project">
+      <h2>Accessible Profile Website</h2>
+      <p>This project was developed for the Accessibility and Usability module. The goal was to build a multi-page portfolio using only HTML, CSS, and JavaScript — without any frameworks or libraries. Key highlights include:</p>
+      <ul>
+        <li>Strict adherence to semantic HTML5 elements</li>
+        <li>WAVE-based conformance test to WCAG 2.1 Level AA</li>
+        <li>Heuristic evaluation based on Nielsen's principles</li>
+      </ul>
+      <p>This project reflects not only my coding skills but also my attention to ethical and inclusive design practices. It was pushed and version-controlled through GitHub and hosted via GitHub Pages.</p>
+      <img src="images/profile-site.png" alt="Screenshot of profile site" class="illustration" />
+      <a href="project-details.html">View Project Details</a>
+    </section>
 
-        <section class="project">
-            <h2>AI Inventory Tracker</h2>
-            <img src="images/inventory-ai.png" alt="Illustration of AI tracking inventory" />
-            <p>A conceptual project for predicting inventory needs in real-time using AI algorithms.</p>
-            <a href="project-details.html">View Details</a>
-        </section>
-    </main>
+    <section class="project">
+      <h2>AI Inventory Tracker (Concept)</h2>
+      <p>This is a conceptual project designed to demonstrate how AI can be used to forecast inventory demand in a warehouse environment. The system was planned to integrate time-series analysis with real-world warehouse constraints such as lead times and restocking delays.</p>
+      <p>The proposed features include:</p>
+      <ul>
+        <li>Historical trend analysis using Python (Pandas, NumPy)</li>
+        <li>Machine learning algorithms like ARIMA and Decision Trees</li>
+        <li>Custom dashboards for warehouse managers</li>
+      </ul>
+      <p>Though the project is in the design phase, it builds on my work experience and technical background, aiming for real-world industrial applications in smart logistics and supply chain automation.</p>
+      <img src="images/inventory-ai.png" alt="AI inventory prediction dashboard mockup" class="illustration" />
+      <a href="project-details.html">View Project Details</a>
+    </section>
+  </main>
 
-    <footer>
-        <p>© 2025 Evlin Varghese</p>
-    </footer>
+  <footer>
+    <p>© 2025 Evlin Varghese</p>
+  </footer>
 </body>
 </html>
